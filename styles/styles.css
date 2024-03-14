@@ -1,0 +1,121 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo {
+    display: block;
+    width: 400px;
+    margin: 200px;
+}
+
+.container {
+    display: flex;
+}
+
+.menu {
+    font-size: 35px;
+    margin-top: 90px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+form {
+    font-size: 15px;
+    width: 300px;
+}
+
+form button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    border-radius: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid #e3e9ec;
+    cursor: pointer;
+}
+
+form 
+.google-logo svg,
+form 
+.apple-logo svg
+{
+    width: 20px;
+    margin-right: 5px;
+}
+
+form .apple-logo:hover {
+    background-color: whitesmoke;
+}
+
+form .account {
+    color: white;
+    background-color: #1d9bf0;
+}
+
+form .account:hover {
+    background-color: dodgerblue;
+}
+
+.line {
+    display: flex;
+    align-items: baseline;
+    font-size: 14px;
+}
+
+.line hr {
+    width: 40%;
+    border: 1px solid #f7f9f9;
+    
+}
+
+.list {
+    font-size: 11px;
+    color: #657480;
+    margin-bottom: 50px;
+}
+
+.list a {
+    color: #44acf2;
+    text-decoration: none;
+}
+
+.list a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+.login {
+    color: #1d9bf0;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.login:hover {
+    background-color: #c8e6fb;
+}
+
+footer {
+    color: #657480;
+    font-size: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 30px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: #657480;
+    text-decoration: none;  
+}
+
+
